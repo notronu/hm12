@@ -14,7 +14,7 @@ public class Main {
         theWitcher.setPublishingYear(1986);
         System.out.println(andrzejSapkowski);
         System.out.println(theWitcher);
-        System.out.println("harryPotter.name = " + harryPotter.getName()); // проверил геттер
+        System.out.println("harryPotter.name = " + harryPotter.getName()); // проверил геттеp
 
 
 
