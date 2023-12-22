@@ -6,15 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
         Author joanRowling = new Author("Joan", "Rowling");
-        Book harryPotter = new Book("Joan Rowling", "Harry Potter", 2000);
+        Book harryPotter = new Book(joanRowling, "Harry Potter", 2000);
         System.out.println(joanRowling);
         System.out.println(harryPotter);
         Author andrzejSapkowski = new Author("Andrzej", "Sapkowski");
-        Book theWitcher = new Book("Andrzej Sapkowski", "The Witcher", 1993);
+        Book theWitcher = new Book(andrzejSapkowski, "The Witcher", 1993);
         theWitcher.setPublishingYear(1986);
         System.out.println(andrzejSapkowski);
         System.out.println(theWitcher);
         System.out.println("harryPotter.name = " + harryPotter.getName()); // проверил геттеp
+
 
 
 
