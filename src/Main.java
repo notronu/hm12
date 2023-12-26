@@ -9,12 +9,24 @@ public class Main {
         Book harryPotter = new Book(joanRowling, "Harry Potter", 2000);
         System.out.println(joanRowling);
         System.out.println(harryPotter);
+
         Author andrzejSapkowski = new Author("Andrzej", "Sapkowski");
         Book theWitcher = new Book(andrzejSapkowski, "The Witcher", 1993);
-        theWitcher.setPublishingYear(1986);
+        theWitcher.setPublishingYear(1985);
+
         System.out.println(andrzejSapkowski);
         System.out.println(theWitcher);
-        System.out.println("harryPotter.name = " + harryPotter.getName()); // проверил геттеp
+
+        System.out.println(joanRowling.equals(andrzejSapkowski));
+        System.out.println(harryPotter.equals(theWitcher));
+
+        System.out.println(joanRowling.hashCode());
+        System.out.println(andrzejSapkowski.hashCode());
+        System.out.println(harryPotter.hashCode());
+        System.out.println(theWitcher.hashCode());
+
+
+
 
 
 
