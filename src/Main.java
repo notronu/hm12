@@ -12,7 +12,7 @@ public class Main {
 
         Author andrzejSapkowski = new Author("Andrzej", "Sapkowski");
         Book theWitcher = new Book(andrzejSapkowski, "The Witcher", 1993);
-        theWitcher.setPublishingYear(1986);
+        theWitcher.setPublishingYear(1985);
 
         System.out.println(andrzejSapkowski);
         System.out.println(theWitcher);
